@@ -1,10 +1,11 @@
+package edu.eci.cvds.servlet.model;;
 public class Todo{
     private int userId;
     private int id;
     private String title;
     private boolean Completed;
 
-    public todo(){
+    public Todo(){
     }
     public int getUserId(){
         return userId;
@@ -28,6 +29,6 @@ public class Todo{
         return Completed;
     }
     public void setCompleted(boolean Completed){
-        this.Completed = title;
+        this.Completed = Completed;
     }
 }
